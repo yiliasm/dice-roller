@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to-right, #74ebd5, #ACB6E5);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 700px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    color: #333;
+
+}
+.instructions {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    padding: 10px 15px;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 50px;
+    font-size: 1.2em;
+    text-align: right;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 5px;
+    background: #f9f9f9;
+}
+
+button {
+    font-size: 1.4em;
+    padding: 10px 20px;
+    background: #bdc7c7;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: #8a8b8b;
+}
+

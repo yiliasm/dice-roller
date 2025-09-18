@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Dice Roller</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+<body onload="rollDice()">
+    <div class="container">
+
+        <h1>Yahtzee Dice Roller</h1>
+        <p class="instructions">
+            This is a dice roller that will roll 5 dice for Yahtzee.<br>
+            Click the button or hit Enter to roll the dice again. 
+        </p>    
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Die 1
+                    </th>
+                    <th>Die 2</th>
+                    <th>Die 3</th>
+                    <th>Die 4</th>
+                    <th>Die 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" id="die1" readonly>
+                    </td>
+                    <td><input type="text" id="die2" readonly></td>
+                    <td><input type="text" id="die3" readonly></td>
+                    <td><input type="text" id="die4" readonly></td>
+                    <td><input type="text" id="die5" readonly></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="rollButton" onclick="rollDice()" autofocus>Roll Dice</button>
+    </div>
+
+
+
+</body>
+</html>
