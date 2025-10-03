@@ -1,4 +1,4 @@
-const API_HOST = "dicerollerapi-bgcgg6fwbzcebwdf.eastus-01.azurewebsites.net";
+const API_HOST = "https://dicerollerapi-bgcgg6fwbzcebwdf.eastus-01.azurewebsites.net/";
 
 //asynchronous function to roll dice through calling the api
 async function rollDice() {
